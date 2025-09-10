@@ -1,0 +1,38 @@
+2025-09-07 07:17:54 [INFO] ================================================================
+2025-09-07 07:17:54 [INFO] Q3: PSO Optimization (single-file, with logging) -> result1.xlsx
+2025-09-07 07:17:54 [INFO] ================================================================
+2025-09-07 07:17:54 [INFO] [Const] target center=(0, 200, 0), r=7.0, h=10.0
+2025-09-07 07:17:54 [INFO] [Const] missile init=(20000, 0, 2000), v=300.0
+2025-09-07 07:17:54 [INFO] [Const] uav init=(17800, 0, 1800), v in [70.0, 140.0]
+2025-09-07 07:17:54 [INFO] [Const] smoke R=10.0, sink=3.0, life=20.0
+2025-09-07 07:17:54 [INFO] [Sim ] T=80.0, dt=0.02
+2025-09-07 07:17:54 [INFO] [Target] sampling points = 1344
+2025-09-07 07:18:06 [INFO] [PSO] particles=60, iters=120
+2025-09-07 07:18:06 [INFO] [PSO] init best = 0.000000
+2025-09-07 07:18:17 [INFO] [PSO] iter   1 | best = 0.000000
+2025-09-07 07:20:00 [INFO] [PSO] iter  10 | best = 1.080000
+2025-09-07 07:21:55 [INFO] [PSO] iter  20 | best = 2.500000
+2025-09-07 07:23:51 [INFO] [PSO] iter  30 | best = 3.660000
+2025-09-07 07:25:48 [INFO] [PSO] iter  40 | best = 4.960000
+2025-09-07 07:27:43 [INFO] [PSO] iter  50 | best = 5.840000
+2025-09-07 07:29:39 [INFO] [PSO] iter  60 | best = 6.020000
+2025-09-07 07:31:37 [INFO] [PSO] iter  70 | best = 6.080000
+2025-09-07 07:33:33 [INFO] [PSO] iter  80 | best = 6.100000
+2025-09-07 07:35:14 [INFO] [PSO] iter  90 | best = 6.120000
+2025-09-07 07:36:38 [INFO] [PSO] iter 100 | best = 6.120000
+2025-09-07 07:37:36 [INFO] [PSO] early stop at iter 107 (no improve for 20)
+2025-09-07 07:37:36 [INFO] [PSO] done. final best = 6.120000
+2025-09-07 07:37:36 [INFO] [Best Solution]
+2025-09-07 07:37:36 [INFO]   heading = 179.270 deg
+2025-09-07 07:37:36 [INFO]   speed   = 97.14 m/s
+2025-09-07 07:37:36 [INFO]   bomb1: release=0.500s, delay=3.333s
+2025-09-07 07:37:36 [INFO]   bomb2: release=3.602s, delay=4.355s
+2025-09-07 07:37:36 [INFO]   bomb3: release=8.011s, delay=3.931s
+2025-09-07 07:37:36 [INFO] [Detail] total occlusion time = 6.120000 s
+2025-09-07 07:37:36 [INFO] [Detail] grid: 4001 steps, from 0.000 to 80.000 s
+2025-09-07 07:37:36 [INFO] [Detail] occluded steps: 306 / 4001
+2025-09-07 07:37:36 [INFO] [Excel] saved -> /Users/chenhaotian/Desktop/math_model/Q3/result1.xlsx
+2025-09-07 07:37:36 [INFO] [Plot] saved -> q3_occlusion_timeline.png
+2025-09-07 07:37:36 [INFO] ================================================================
+2025-09-07 07:37:36 [INFO] Q3 Optimization Complete! Output: result1.xlsx
+2025-09-07 07:37:36 [INFO] ================================================================
